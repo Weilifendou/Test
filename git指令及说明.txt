@@ -5,7 +5,7 @@
 5. git push -u #是第一次推送时将本地库与远程库相关联，后续就可以直接使用git push不用加（origin master）
 6. git push -f #使用本地库强制覆盖远程库
 7. git clone #是第一次从远程仓库获取代码
-8. git pull #适用于从远程仓库更新本地仓库的代码，git pull 实际上是 git fetch 和 git merge #两个命令的组合，它首先从远程仓库拉取最新的更新，然后将这些更新与本地仓库合并
+8. git pull #适用于从远程仓库更新本地仓库的代码，git pull 实际上是 git fetch 和 git merge 两个命令的组合，它首先从远程仓库拉取最新的更新，然后将这些更新与本地仓库合并
 9. git diff #是 比较暂存区和工作目录之间的差异，即查看已经被修改但还没有被提交的文件
 10. git status #比较暂存区和工作目录之间的差异，即查看已经被修改但还没有被提交的文件
 11. git reset #是将git add的文件从暂存区中移除
