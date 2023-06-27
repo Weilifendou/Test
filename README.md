@@ -1,1 +1,1 @@
-#git指令及说明
+#Git command and instruction
